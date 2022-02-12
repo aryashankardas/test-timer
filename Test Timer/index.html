@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="description" content="A tool to time yourself on tests.">
+    <meta name="author" content="Aaryam Maheshwary">
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+    <title>Test Timer</title>
+</head>
+<body>
+    <div class="container">
+        <h1 class="display-1">Test Timer</h1>
+        <div class="row">
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Questions">
+            </div>
+            <div class="col">
+                <input type="number" class="form-control" placeholder="Minutes">
+            </div>
+        </div>
+        <div class="row">
+            <div class="jumbotron">
+                <hr>
+                <h4>You should be on number...</h4>
+                <h1 id="timer" class="display-4">0.00000000000</h1>
+            </div>
+        </div>
+        <div class="row">
+            <div class="btn-group" role="group" aria-label="Basic example">
+                <button type="button" class="btn btn-outline-success" onclick="start()">Start</button>
+                <button type="button" class="btn btn-outline-danger" onclick="reset()">Reset</button>
+            </div>              
+        </div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+</html>
